@@ -10,6 +10,5 @@ RUN chown -R go: /tmp
 RUN rm /tmp/go-server.deb
 ADD go-server /etc/default/go-server
 ADD start.sh /start.sh
-EXPOSE 8153
-EXPOSE 8154
+EXPOSE 8153 8154
 CMD /start.sh
