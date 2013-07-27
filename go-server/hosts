@@ -1,2 +1,4 @@
+# Bake in some useful v4 hostnames
 127.0.0.1 localhost.localdomain localhost
-127.0.1.1 go-server
+
+# Docker should insert a hostname beneath here
