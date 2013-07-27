@@ -5,4 +5,6 @@ RUN apt-get update
 RUN apt-get install default-jre -y
 RUN dpkg -i /tmp/go-agent.deb
 RUN rm /tmp/go-agent.deb
-CMD /etc/init.d/go-agent start
+ADD go-agent /etc/default/go-agent
+ADD start.sh /start.sh
+CMD /start.sh
