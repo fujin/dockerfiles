@@ -8,5 +8,4 @@ RUN dpkg -i /tmp/go-server.deb
 RUN rm /tmp/go-server.deb
 ADD go-server /etc/default/go-server
 ADD start.sh /start.sh
-EXPOSE 8153 8154
 CMD /start.sh
