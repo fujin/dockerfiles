@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm -rf /var/cache/apt/archives/*
+
 # For Go
 export PATH=/usr/local/go/bin:$PATH
 
