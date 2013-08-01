@@ -4,4 +4,4 @@ ADD install.sh /
 RUN /install.sh
 EXPOSE 7001
 EXPOSE 4001
-RUN /opt/etcd/bin/etcd
+RUN /etcd/bin/etcd
