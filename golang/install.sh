@@ -9,3 +9,4 @@ apt-get install -y -q curl git mercurial build-essential
 curl -s https://go.googlecode.com/files/go1.1.1.linux-amd64.tar.gz | tar -v -C /usr/local -xz
 export PATH=/usr/local/go/bin:$PATH
 cd /tmp && echo 'package main' > t.go && go test -a -i -v
+rm -rf /var/cache/apt/archives/*.deb
