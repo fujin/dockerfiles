@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# For Go
+export PATH=/usr/local/go/bin:$PATH
+
 # Install etcd
 export INSTALL_DIR=/etcd
 mkdir -p $INSTALL_DIR
