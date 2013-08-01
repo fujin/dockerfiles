@@ -11,4 +11,4 @@ IPADDRESS=$(
 echo 127.0.0.1 $HOSTNAME > /etc/hosts
 echo $IPADDRESS $HOSTNAME >> /etc/hosts
 
-$ETCD -vv -h $IPADDRESS
+$ETCD -vv -h $IPADDRESS $@
