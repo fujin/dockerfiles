@@ -1,5 +1,7 @@
 #!/bin/sh
-export INSTALL_DIR=/opt/etcd
+
+# Install etcd
+export INSTALL_DIR=/etcd
 mkdir -p $INSTALL_DIR
 cd $INSTALL_DIR
 export GOPATH=`pwd`
